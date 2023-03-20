@@ -1,0 +1,22 @@
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+
+public class FunctionalPractice {
+
+	public static Consumer<String> c1 = (string)->{
+		System.out.println(string.toUpperCase());
+	};
+	
+	
+	public static BiConsumer<Integer,Integer> c2 = (x,y)->{
+		System.out.println("Multiplication of x:"+x+" and y:"+y+" is "+x*y);
+	};
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		c1.accept("Akshay");
+		
+		
+	}
+
+}

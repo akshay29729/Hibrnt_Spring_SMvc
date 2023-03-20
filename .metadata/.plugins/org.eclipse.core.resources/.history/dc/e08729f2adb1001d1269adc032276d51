@@ -1,0 +1,15 @@
+import java.util.function.Consumer;
+
+public class FunctionalPractice {
+
+	public static Consumer<String> c1 = (string)->{
+		System.out.println(string.toUpperCase());
+	};
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		c1.accept("Akshay");
+	}
+
+}

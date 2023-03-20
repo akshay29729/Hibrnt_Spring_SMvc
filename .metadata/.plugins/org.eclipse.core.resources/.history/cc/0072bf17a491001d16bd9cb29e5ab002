@@ -1,0 +1,28 @@
+package com.springdemo.annotations;
+
+import org.springframework.stereotype.Component;
+
+@Component("myTennisCoach") // if we don't specify the bean id here then spring will make default id "tennisCoach"
+public class TennisCoach implements Coach {
+	
+	private FortuneService fortuneService;
+	
+
+	public TennisCoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getWorkoutDetails() {
+		// TODO Auto-generated method stub
+		return "Practice the backhand shots....";
+		
+	}
+
+	@Override
+	public String getFortuneService() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

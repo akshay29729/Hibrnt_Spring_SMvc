@@ -1,0 +1,30 @@
+package com.springmvc_hibernate.daoImpl;
+
+import java.util.List;
+import com.springmvc_hibernate.dao.CustomerDao;
+import com.springmvc_hibernate.entity.Customer;
+import javax.transaction.Transactional;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CustomerDaoImpl implements CustomerDao {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	@Override
+	@Transactional
+	public List<Customer> getCustomers() {
+		// TODO Auto-generated method stub
+		Session currentSession = sessionFactory.getCurrentSession();
+		
+		currentSession.createQuery("from Customer", Customer.class);
+		
+		return null;
+	}
+
+}

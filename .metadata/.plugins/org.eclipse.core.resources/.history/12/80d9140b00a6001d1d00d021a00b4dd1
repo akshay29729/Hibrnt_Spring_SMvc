@@ -1,0 +1,20 @@
+package com.springmvc_hibernate.testdb;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class TestDbServlet
+ */
+@WebServlet("/TestDbServlet")
+public class TestDbServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    /**
+     * Default constructor. 
+     */
+    public TestDbServlet() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

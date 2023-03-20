@@ -1,0 +1,10 @@
+package com.springmvc_hibernate.dao;
+
+import java.util.List;
+
+import com.springmvc_hibernate.entity.Customer;
+
+public interface CustomerDao {
+	public List<Customer> getCustomers();
+
+}

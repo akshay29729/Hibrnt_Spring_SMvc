@@ -1,0 +1,26 @@
+import java.util.Optional;
+
+public class OptionalPractice {
+	
+	public static Optional<String> ofNullableMethod() {
+		return Optional.ofNullable(null);
+	}
+	
+	public static Optional<String> ofMethod() {
+		return Optional.of("Akshay");
+	}
+
+	public static Optional<String> ofMethod() {
+		return Optional.of("Akshay");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Optional<String> optional = ofMethod();
+		System.out.println(optional);
+		System.out.println(optional.get());
+
+	}
+
+}

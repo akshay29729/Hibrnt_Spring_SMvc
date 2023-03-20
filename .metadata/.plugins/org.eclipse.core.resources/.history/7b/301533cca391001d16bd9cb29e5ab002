@@ -1,0 +1,12 @@
+package com.springdemo.annotations;
+
+@Component
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public void getFortuneService() {
+		// TODO Auto-generated method stub
+		System.out.println("Have good fitness...");
+	}
+
+}

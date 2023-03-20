@@ -1,0 +1,18 @@
+
+public class TerminalOperationsPractice {
+	
+	public static void joining_1() {
+		
+		Student.getStudents().stream()
+		       .map(Student::getName)
+		       .collect(joining(","));
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	}
+
+}

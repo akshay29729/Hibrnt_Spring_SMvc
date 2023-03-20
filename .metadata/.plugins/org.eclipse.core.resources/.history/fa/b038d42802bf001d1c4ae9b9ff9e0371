@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class ComparatorPractice2{
+	 static Comparator<Student> comp = (x, y)->{
+		return x.getName().compareTo(y.getName());
+	};
+
+	public static void main(String[] args) {	
+		
+		List<Student> list = Student.getStudents();
+	}
+
+}

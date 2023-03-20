@@ -1,0 +1,29 @@
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+
+public class FunctionalPractice {
+
+	
+	// 1- Consumer 
+//	public static Consumer<String> c1 = (string)->{
+//		System.out.println(string.toUpperCase());
+//	};
+//	
+//	
+//	public static BiConsumer<Integer,Integer> c2 = (x,y)->{
+//		System.out.println("Multiplication of x:"+x+" and y:"+y+" is "+x*y);
+//	};
+//	
+//	public static BiConsumer<Integer,Integer> c3 = (x,y)->{
+//		System.out.println("Division of x:"+x+" and y:"+y+" is "+x/y);
+//	};
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		c1.accept("Akshay");
+		c2.accept(4, 5);
+		c2.andThen(c3).accept(10, 4);
+	}
+
+}

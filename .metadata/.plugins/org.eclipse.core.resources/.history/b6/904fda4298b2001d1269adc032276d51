@@ -1,0 +1,41 @@
+import java.util.List;
+
+public class Student {
+	private String name;
+	private float Gpa;
+	private float Grade;
+	
+	public Student(String name, float gpa, float grade) {
+		this.name = name;
+		Gpa = gpa;
+		Grade = grade;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getGpa() {
+		return Gpa;
+	}
+	public void setGpa(float gpa) {
+		Gpa = gpa;
+	}
+	public float getGrade() {
+		return Grade;
+	}
+	public void setGrade(float grade) {
+		Grade = grade;
+	}
+	
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", Gpa=" + Gpa + ", Grade=" + Grade + "]";
+	}
+	
+	public List<Student> getStudents(){
+		Student
+	}
+}

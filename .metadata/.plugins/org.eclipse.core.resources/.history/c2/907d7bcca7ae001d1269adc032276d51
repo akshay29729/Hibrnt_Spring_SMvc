@@ -1,0 +1,14 @@
+import java.util.Comparator;
+
+public class Comp implements Comparator{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Integer i =10;
+		Integer j =1;
+		System.out.println(i.compareTo(j));
+
+	}
+
+}

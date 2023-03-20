@@ -1,0 +1,13 @@
+
+public class StringFOrmatting {
+   public static void main(String[] arge) {
+	   int i = 1234569;
+	   int j=345;
+	   int k=-345;
+	   System.out.println(String.format("%,d",i));
+	   System.out.println(String.format("%06d",j));
+	   System.out.println(String.format("%06d",k));
+	   System.out.println(String.format("%(d",j));
+	   System.out.println(String.format("%(d",k));
+   }
+}

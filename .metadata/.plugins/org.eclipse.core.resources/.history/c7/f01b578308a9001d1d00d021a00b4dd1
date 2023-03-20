@@ -1,0 +1,8 @@
+package com.springdemo.aop;
+
+import org.springframework.stereotype.Component;
+@AspectJ
+@Component
+public class DemoAspect {
+
+}

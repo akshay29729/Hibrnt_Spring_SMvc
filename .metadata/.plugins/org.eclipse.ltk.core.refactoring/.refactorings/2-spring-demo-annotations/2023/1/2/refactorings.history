@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HappyFortuneService.java&apos; to &apos;spring-demo-2-annotations/src/com.springdemo.annotations&apos;&#x0D;&#x0A;- Original project: &apos;spring-demo-2-annotations&apos;&#x0D;&#x0A;- Destination element: &apos;spring-demo-2-annotations/src/com.springdemo.annotations&apos;&#x0D;&#x0A;- Original element: &apos;com.springdemo.annotations.HappyFortuneService.java&apos;" description="Copy compilation unit" destination="/src&lt;com.springdemo.annotations" element1="/src&lt;com.springdemo.annotations{HappyFortuneService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1673446311150" units="1" version="1.0"/>
+</session>

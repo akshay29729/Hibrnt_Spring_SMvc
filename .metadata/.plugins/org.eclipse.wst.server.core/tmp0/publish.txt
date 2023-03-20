@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Feb 09 12:28:41 IST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\akshay.shinde\\Desktop\\Spring-Hbrnt-Sboot\\8-SpringMVC-Hibernate\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\akshay.shinde\\Desktop\\Spring-Hbrnt-Sboot\\8-SpringMVC-Hibernate\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar

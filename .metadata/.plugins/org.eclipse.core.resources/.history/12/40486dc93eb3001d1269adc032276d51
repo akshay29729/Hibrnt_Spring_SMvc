@@ -1,0 +1,34 @@
+import java.util.Optional;
+
+public class OptionalPractice {
+	
+	public static Optional<String> ofNullableMethod() {
+		return Optional.ofNullable(null);
+	}
+	
+	public static Optional<String> ofMethod() {
+		return Optional.of("Akshay");
+	}
+
+	public static Optional<String> emptyMethod() {
+		return Optional.empty();
+	}
+	
+	public static String orElse(){
+		
+		Optional<Student> std = Optional.ofNullable(Student.getSingleSTudent());
+	    return std.map(Student::getName).orElse("AKshay");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//
+//		Optional<String> optional = emptyMethod();
+//		System.out.println(optional);
+////		System.out.println(optional.get());
+		
+		System.out.println(orElse());
+
+	}
+
+}

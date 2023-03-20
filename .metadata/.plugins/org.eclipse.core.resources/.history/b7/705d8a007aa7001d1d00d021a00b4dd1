@@ -1,0 +1,5 @@
+package com.springmvc_hibernate.entity;
+
+public class Customer {
+
+}

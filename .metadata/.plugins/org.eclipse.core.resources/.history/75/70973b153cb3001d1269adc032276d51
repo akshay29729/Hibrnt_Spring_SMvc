@@ -1,0 +1,15 @@
+import java.util.Optional;
+
+public class OptionalPractice {
+	
+	public static void optional() {
+		Optional<String> optional = Optional.ofNullable("Akshay");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+}

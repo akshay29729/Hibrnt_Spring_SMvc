@@ -1,0 +1,16 @@
+package com.springmvc_hibernate.serviceImpl;
+
+import java.util.List;
+
+import com.springmvc_hibernate.entity.Customer;
+import com.springmvc_hibernate.service.CustomerService;
+
+public class CustomerServiceImpl implements CustomerService {
+
+	@Override
+	public List<Customer> getCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
